@@ -1,10 +1,8 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 use Rector\Config\RectorConfig;
-
-use function PHPSTORM_META\type;
 
 return RectorConfig::configure()
     ->withPaths([
@@ -16,11 +14,11 @@ return RectorConfig::configure()
     ])
     // uncomment to reach your current PHP version
     ->withPreparedSets(
-        deadCode:true,
-        codeQuality:true,
-        typeDeclarations:true,
-        privatization:true,
-        earlyReturn:true,
-        strictBooleans:true,
+        deadCode: true,
+        codeQuality: true,
+        typeDeclarations: true,
+        privatization: true,
+        earlyReturn: true,
+        strictBooleans: true,
     )
     ->withPhpSets();

@@ -1,2 +1,2 @@
 
-<?php echo "Servidor funcionando"; ?>
+<?php echo 'Servidor funcionando'; ?>
